@@ -1,12 +1,18 @@
-const user = {
-  name: "kashif",
-  imageUrl:
-    " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO17hg6KvLlweeZWN0LCEdi-OXM9qGpbQ9w&s;",
-  imageSize: 70,
+
+
+const Profile = ({data , date}) => {
+  
+  return (
+    <> 
+      <h1>{data.name}</h1>
+      <img src={data.imageUrl} alt={'photo of ' + data.name} width={data.imageSize} height={data.imageSize} />
+      {
+        date && (
+          <p>{date.toString()}</p> 
+        )
+      }
+    </>
+  );
 };
 
-const Profile = () => {
-  retrun(<h1>{user.name}</h1>);
-};
-
-export default user;
+export default Profile;
