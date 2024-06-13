@@ -10,9 +10,9 @@ export default function Navbar() {
   };
   
   return (
-    <div>
+    <div >
       <nav className="flex justify-between fixed w-full top-0 bg-white flex-col md:flex-row p-4">
-        <div className="flex justify-between items-center w-full sm:w-auto">
+      <div className="flex justify-between items-center w-full sm:w-auto">
           <img className="w-20 sm:w-28" alt="" src="./Image/logo.png" />
           <div className="md:hidden">
             <button className="text-black" onClick={toggleMenu}>
@@ -31,7 +31,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <ul className="hidden md:flex space-x-4 gap-4 md:gap-8  p-4 flex-col items-start sm:flex-row sm:items-  center">
+        <ul className="hidden md:flex space-x-4 gap-4 md:gap-8  p-4 flex-col items-start sm:flex-row sm:items-center">
           <li className="flex items-center gap-1">
             <span>
               <FaHome />

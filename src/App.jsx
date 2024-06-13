@@ -12,15 +12,7 @@ import Nopage from "./pages/Nopage";
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route index element={<Home />} />
-    //     <Route path="Services" element={<Services />} />
-    //     <Route path="About" element={<About />} />
-    //     <Route path="contact" element={<Contact />} />
-    //     <Route path="getstarted" element={<GetStarted />} />
-    //   </Routes>
-    // </BrowserRouter>
+ 
 
     <BrowserRouter>
       <Routes>
@@ -40,3 +32,5 @@ function App() {
 }
 
 export default App;
+
+

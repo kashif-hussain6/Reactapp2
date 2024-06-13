@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../../pages/image";
+
 
 function Footer() {
   return (
